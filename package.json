@@ -1,4 +1,12 @@
 {
   "name": "drinkmanager-backend",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "main" : "server.js",
+
+  "description": "Restful Server offering endpoints to manage drink billing",
+  "dependencies" : {
+    "express" : "4.13.x",
+    "mongoose": "4.0.x",
+    "body-parser": "1.13.x"
+  }
 }
